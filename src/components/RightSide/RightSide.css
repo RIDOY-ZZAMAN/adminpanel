@@ -1,0 +1,65 @@
+.Header{
+    width: 95vw;
+    height: 20vh;
+    background-color: #F8F9FB;
+    text-align: start;
+    padding: 0px   80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  
+}
+
+.content{
+    width: 95vw;
+    height: 80vh;
+    background-color: #FFFFFF;
+    padding: 0px   80px;
+}
+
+.headerSearch{
+    border: none;
+    color: gray;
+    background-color: inherit;
+    margin-left: 15px;
+}
+
+.btn{
+    padding: 10px 20px;
+    border: 2px solid #E1E4E9;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.box{
+    width: 90%;
+    height: 25px;
+    background-color: white;
+    border: 1px solid rgb(211, 201, 250);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    padding:20px;
+}
+.filterButton{
+    box-shadow: none !important;
+    outline: none !important;
+    font-weight: normal;
+    border-right: 1px solid rgb(211, 201, 250) !important;
+    
+}
+
+
+.box > i{
+    font-size: 17px;
+    color: #22D178;
+    margin:0  10px;
+}
+
+.box > input{
+    flex: 1;
+    height: 25px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
