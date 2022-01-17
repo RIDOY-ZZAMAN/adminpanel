@@ -38,14 +38,14 @@ const RightSide = () => {
                 <div style={{ display: "flex", justifyContent: "space-between" }}>
                     <h3>Products</h3>
                     <div>
-                        <button className='btn' style={{ marginRight: "15px" }}> <i class="fas fa-upload"></i> Import</button>
+                        <button className='btn' style={{ marginRight: "15px" }}>Import <i class="fas fa-upload"></i></button>
 
                         <CSVLink
                             data={products}
                             filename={"my-file.csv"}
                             target="_blank"
                         >
-                            <button className='btn'> <i class="fas fa-download"></i> Export</button>
+                            <button className='btn'>Export <i class="fas fa-download"></i></button>
                         </CSVLink>
 
                     </div>
